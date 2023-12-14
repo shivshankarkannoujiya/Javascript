@@ -8,6 +8,7 @@ accountEmail = "ab@gmail.com";
 accountPassword = "4321";
 accountCity = "Delhi";
 
+
 let accoutState; // Declare but not define : Undefined
 
 console.log(accountId);
