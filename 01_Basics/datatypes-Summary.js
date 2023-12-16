@@ -12,7 +12,7 @@ let userEmail;
 
 const id = Symbol("123");
 const anotherId = Symbol("123");
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigNumber = 12333333333n;
 
@@ -24,13 +24,29 @@ let myObj = {
 };
 
 const myFunction = function () {
-  console.log("Hello World");
+  // console.log("Hello World");
 };
 
-// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// +++++++++++++++++++++++++++++++---MEMORY---+++++++++++++++++++++++++++++++++++++++++
 
 /*
-MEMORY
-
 Stack(Primitve), Heap(Non-primitive)
 */
+
+let myYoutubeName = "YouTube";
+
+let anotherName = myYoutubeName;
+anotherName = "codinngChannel";
+// console.log(anotherName);
+// console.log(myYoutubeName);
+
+let userOne = {
+  email: "user@gmail.com",
+  upi: "user@ybl",
+};
+
+let userTwo = userOne;
+userTwo.email = "user@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
