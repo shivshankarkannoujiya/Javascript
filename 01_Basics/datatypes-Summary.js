@@ -26,3 +26,11 @@ let myObj = {
 const myFunction = function () {
   console.log("Hello World");
 };
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+MEMORY
+
+Stack(Primitve), Heap(Non-primitive)
+*/
