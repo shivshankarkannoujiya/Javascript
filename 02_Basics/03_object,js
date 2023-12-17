@@ -1,0 +1,46 @@
+/*
+Ways to Declare : 
+1.Literal
+2.Ctor
+Singleton : created by using ctor
+*/
+
+// Object literal
+const mySym = Symbol("Key1");
+const jsUser = {
+  name: "Abhishek",
+  "full name": "Abhishek Kannoujiya", // can no t acces using . operator
+  //   mySym: "mykey1",
+  [mySym]: "mykey1",
+  age: 19,
+  location: "Gkp",
+  email: "abhi@gmail.com",
+  isLoggedIn: false,
+  lastLoginDays: ["Monday", "Saturday"],
+};
+
+// Access
+// console.log(jsUser.email);
+// console.log(jsUser["email"]);
+// console.log(jsUser["full name"]);
+// console.log(jsUser[mySym]);
+
+// change value
+jsUser.email = "abhichatgpt.com";
+
+// lock value of object
+// Object.freeze(jsUser);
+jsUser.email = "abhimicrosoft.com"; // not reflect : bsz->freez
+// console.log(jsUser);
+
+jsUser.greeting = function () {
+  console.log("Hello jsUser");
+};
+
+jsUser.greeting2 = function () {
+  console.log(`Hello Jsuser ${this.name}`);
+};
+
+//console.log(jsUser.greeting); // undefined
+console.log(jsUser.greeting());
+console.log(jsUser.greeting2());
