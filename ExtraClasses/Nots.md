@@ -42,7 +42,7 @@ function createRectangle() {
   return rectangle;
 }
 
-_OR : return directly object 
+_OR : return directly object_ 
 
 function createRectangle() {
   return (rectangle = {
