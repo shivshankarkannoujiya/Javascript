@@ -25,5 +25,5 @@ console.log(rectangle.length);
     1. Factory function                   
     2. Constructor function
 
-## Factory function 
+## 1. Factory function 
 _Function that create object  and return that object_
