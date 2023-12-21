@@ -79,5 +79,5 @@ let rectangle2 = createRectangle(12, 13);
 
 ## 2. Constructor function
 
-_Follow Pascal Notation_
+_Follow Pascal Notation_                       
 _Init the value to property and define method/function_
