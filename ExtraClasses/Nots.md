@@ -3,7 +3,6 @@
 ## Creating object
 
 ```javascript
-
 const rectangle = {
   // property
   length: 1,
@@ -17,18 +16,19 @@ const rectangle = {
 console.log(rectangle);
 console.log(rectangle.draw());
 console.log(rectangle.length);
-
 ```
 
-# Creating object using function 
+# Creating object using function
 
-    1. Factory function                   
+    1. Factory function
     2. Constructor function
 
-## 1. Factory function 
-_Function that create object  and return that object_
+## 1. Factory function
 
-Syntax : 
+_Function that create object and return that object_
+
+Syntax :
+
 ```javascript
 function createRectangle() {
   const rectangle = {
@@ -42,7 +42,7 @@ function createRectangle() {
   return rectangle;
 }
 
-// _OR : return directly object_ 
+// _OR : return directly object_
 
 function createRectangle() {
   return (rectangle = {
@@ -55,14 +55,12 @@ function createRectangle() {
   });
 }
 
-
 // Creating object : calling function
 let rectangle1 = createRectangle();
-
 ```
 
-
 > Passing parameter to the factory function
+
 ```javascript
 function createRectangle(length, breadth) {
   return (rectangle = {
@@ -78,4 +76,8 @@ function createRectangle(length, breadth) {
 }
 let rectangle2 = createRectangle(12, 13);
 ```
-##  2. Constructor function
+
+## 2. Constructor function
+
+_Follow Pascal Notation_
+_Init the value to property and define method/function_

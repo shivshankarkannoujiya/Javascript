@@ -51,3 +51,12 @@ function createRectangle(length, breadth) {
   });
 }
 let rectangle2 = createRectangle(12, 13);
+
+// constructor function
+function Rectangle() {
+  (this.length = 1),
+    (this.breadth = 2),
+    (this.draw = function () {
+      console.log("Drawing.....");
+    });
+}
