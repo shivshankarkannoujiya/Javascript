@@ -86,11 +86,11 @@ Ex:
 
 ```javascript
 function Rectangle() {
-  (this.length = 1),
-    (this.breadth = 2),
-    (this.draw = function () {
+    this.length = 1,
+    this.breadth = 2,
+    this.draw = function () {
       console.log("Drawing.....");
-    });
+    };
 }
 let rectangleObj = new Rectangle();
 

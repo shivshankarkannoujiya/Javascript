@@ -60,4 +60,15 @@ function Rectangle() {
       console.log("Drawing.....");
     });
 }
-let rectangleObj = new Rectangle();
+// let rectangleObj = new Rectangle();
+// console.log(rectangleObj);
+
+// Passing parameter to ctor function
+function Rectangle(length, breadth) {
+  this.length = length,
+    this.breadth = breadth,
+    this.draw = function () {
+      console.log("Drawing.....");
+    };
+}
+let rectangleObj = new Rectangle(12,4);
