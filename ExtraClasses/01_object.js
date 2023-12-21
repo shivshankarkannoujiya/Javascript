@@ -12,7 +12,6 @@ const rectangle = {
 // console.log(rectangle.length);
 
 // Factory function
-
 function createRectangle() {
   const rectangle = {
     length: 1,
@@ -36,3 +35,19 @@ function createRectangle() {
     },
   });
 }
+
+// passing parameter in the factory function
+
+function createRectangle(length, breadth) {
+  return (rectangle = {
+    // length,
+    // breadth,
+    length: length,
+    breadth: breadth,
+
+    draw() {
+      console.log("Drawing....");
+    },
+  });
+}
+let rectangle2 = createRectangle(12, 13);

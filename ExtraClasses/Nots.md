@@ -55,4 +55,27 @@ function createRectangle() {
   });
 }
 
+
+/*
+Creating object : calling function
+let rectangle1 = createRectangle();
+*/
+
 ```
+> Passing parameter in the factory function
+```javascript
+function createRectangle(length, breadth) {
+  return (rectangle = {
+    // length,
+    // breadth,
+    length: length,
+    breadth: breadth,
+
+    draw() {
+      console.log("Drawing....");
+    },
+  });
+}
+let rectangle2 = createRectangle(12, 13);
+```
+##  2. Constructor function
