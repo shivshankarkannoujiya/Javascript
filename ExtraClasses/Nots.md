@@ -56,12 +56,12 @@ function createRectangle() {
 }
 
 
-/*
-Creating object : calling function
+// Creating object : calling function
 let rectangle1 = createRectangle();
-*/
 
 ```
+
+
 > Passing parameter to the factory function
 ```javascript
 function createRectangle(length, breadth) {
