@@ -41,4 +41,18 @@ function createRectangle() {
   };
   return rectangle;
 }
+
+_OR : return directly object 
+
+function createRectangle() {
+  return (rectangle = {
+    length: 1,
+    breadth: 2,
+
+    drar: function () {
+      console.log("Drawing....");
+    },
+  });
+}
+
 ```

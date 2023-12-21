@@ -24,3 +24,15 @@ function createRectangle() {
   };
   return rectangle;
 }
+
+// or return directly Object
+function createRectangle() {
+  return (rectangle = {
+    length: 1,
+    breadth: 2,
+
+    drar: function () {
+      console.log("Drawing....");
+    },
+  });
+}
