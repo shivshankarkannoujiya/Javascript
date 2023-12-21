@@ -60,3 +60,4 @@ function Rectangle() {
       console.log("Drawing.....");
     });
 }
+let rectangleObj = new Rectangle();

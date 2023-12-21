@@ -81,3 +81,16 @@ let rectangle2 = createRectangle(12, 13);
 
 _Follow Pascal Notation_                       
 _Init the value to property and define method/function_
+
+Ex:
+
+```javascript
+function Rectangle() {
+  (this.length = 1),
+    (this.breadth = 2),
+    (this.draw = function () {
+      console.log("Drawing.....");
+    });
+}
+let rectangleObj = new Rectangle();
+```
