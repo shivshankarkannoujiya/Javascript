@@ -20,3 +20,7 @@ console.log(rectangle.length);
 
 ```
 
+##Creating object using function 
+
+-Factory function 
+-Constructor function
