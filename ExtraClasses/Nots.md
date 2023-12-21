@@ -41,5 +41,4 @@ function createRectangle() {
   };
   return rectangle;
 }
-
 ```
