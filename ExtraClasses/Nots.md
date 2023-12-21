@@ -62,7 +62,7 @@ let rectangle1 = createRectangle();
 */
 
 ```
-> Passing parameter in the factory function
+> Passing parameter to the factory function
 ```javascript
 function createRectangle(length, breadth) {
   return (rectangle = {
