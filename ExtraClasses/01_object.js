@@ -50,7 +50,7 @@ function createRectangle(length, breadth) {
     },
   });
 }
-let rectangle2 = createRectangle(12, 13);
+// let rectangle2 = createRectangle(12, 13);
 
 // constructor function
 function Rectangle() {
@@ -65,10 +65,13 @@ function Rectangle() {
 
 // Passing parameter to ctor function
 function Rectangle(length, breadth) {
-  this.length = length,
-    this.breadth = breadth,
-    this.draw = function () {
+  (this.length = length),
+    (this.breadth = breadth),
+    (this.draw = function () {
       console.log("Drawing.....");
-    };
+    });
 }
-let rectangleObj = new Rectangle(12,4);
+// let rectangleObj = new Rectangle(12, 4);
+// console.log(rectangleObj);
+
+
