@@ -22,5 +22,5 @@ console.log(rectangle.length);
 
 #Creating object using function 
 
-1.Factory function 
+1.Factory function                   
 2.Constructor function
