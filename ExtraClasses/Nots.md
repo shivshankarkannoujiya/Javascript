@@ -1,6 +1,6 @@
-#Object
+# Object
 
-##creating object
+## creating object
 
 ```javascript
 
@@ -20,7 +20,7 @@ console.log(rectangle.length);
 
 ```
 
-#Creating object using function 
+# Creating object using function 
 
-1.Factory function                   
-2.Constructor function
+1. Factory function                   
+2. Constructor function
