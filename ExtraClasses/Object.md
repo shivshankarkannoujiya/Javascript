@@ -181,7 +181,7 @@ if ("length" in rectangle) {
 - Assign
 - Spread
 
-  1.Iteration
+1. Iteration
 
 ```javascript
 // Object Cloning
