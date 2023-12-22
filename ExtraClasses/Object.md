@@ -202,3 +202,25 @@ for (let key in src) {
 }
 console.log(dest);
 ```
+
+**2.assign**
+
+```javascript
+let srcObj = {
+  score: 10,
+};
+
+let destObj = Object.assign({}, srcObj);
+console.log(destObj);
+```
+
+**3. Spread**
+
+```javascript
+let srcObj = {
+  score: 10,
+};
+
+let destObj = { ...srcObj };
+console.log(destObj);
+```
