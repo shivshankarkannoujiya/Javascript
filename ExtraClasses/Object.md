@@ -203,7 +203,7 @@ for (let key in src) {
 console.log(dest);
 ```
 
-**2.assign**
+**2. assign**
 
 ```javascript
 let srcObj = {
