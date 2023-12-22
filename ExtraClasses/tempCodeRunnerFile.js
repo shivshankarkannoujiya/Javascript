@@ -1,2 +1,0 @@
-ow";
-// console.log(rectObj);
