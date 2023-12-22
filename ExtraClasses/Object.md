@@ -135,8 +135,7 @@ console.log(rectObj);
 - for in
 - for of
 
-**for in**
-
+**for in**                
 _Code_
 
 ```javascript
