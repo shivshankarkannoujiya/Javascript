@@ -150,3 +150,6 @@ for (let key in rectangle) {
   console.log(key, rectangle[key]);
 }
 ```
+
+**for of**       
+_code_
