@@ -1,7 +1,7 @@
 // Function are object
 // Iterating throughh Object
 
-// For of
+// For of : which are iterable
 // for in
 
 const rectangle = {
