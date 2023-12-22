@@ -34,16 +34,33 @@ for (let key of Object.keys(rectangle)) {
 
 // Object Cloning
 
-let src = {
-  value: 10,
-};
-console.log(src);
+// let src = {
+//   value: 10,
+// };
+// console.log(src);
 
-// Create empty object
-let dest = {};
+// // Create empty object
+// let dest = {};
 
 // copy all the key and value in dest object
-for (let key in src) {
-  dest[key] = src[key];
-}
-console.log(dest);
+// for (let key in src) {
+//   dest[key] = src[key];
+// }
+// console.log(dest);
+
+// Assign
+
+// let srcObj = {
+//   score: 10,
+// };
+
+// let destObj = Object.assign({}, srcObj);
+// console.log(destObj);
+
+// spread
+let srcObj = {
+  score: 10,
+};
+
+let destObj = { ...srcObj };
+console.log(destObj);
