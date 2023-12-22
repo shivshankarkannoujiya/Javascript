@@ -133,4 +133,19 @@ console.log(rectObj);
 ## Iterating through Object
 
 - for in
-- for of 
+- for of
+
+**for in**
+_Code_
+
+```javascript
+const rectangle = {
+  length: 12,
+  breadht: 10,
+};
+
+for (let key in rectangle) {
+  console.log(key); 
+  console.log(key, rectangle[key]);
+}
+```
