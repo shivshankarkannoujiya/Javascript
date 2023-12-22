@@ -12,5 +12,38 @@ const rectangle = {
 // for in loop
 for (let key in rectangle) {
   // console.log(key);
-  console.log(key, rectangle[key]);
+  // console.log(key, rectangle[key]);
 }
+
+for (let key of Object.entries(rectangle)) {
+  // console.log(key);
+}
+
+// or
+for (let key of Object.keys(rectangle)) {
+  // console.log(key);
+}
+
+// Find property exist or not in Object ?
+
+// if ("length" in rectangle) {
+//   console.log("Present");
+// } else {
+//   console.log("Absent");
+// }
+
+// Object Cloning
+
+let src = {
+  value: 10,
+};
+console.log(src);
+
+// Create empty object
+let dest = {};
+
+// copy all the key and value in dest object
+for (let key in src) {
+  dest[key] = src[key];
+}
+console.log(dest);

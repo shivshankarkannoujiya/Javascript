@@ -135,7 +135,7 @@ console.log(rectObj);
 - for in
 - for of
 
-**for in**                
+**for in**  
 _Code_
 
 ```javascript
@@ -145,17 +145,60 @@ const rectangle = {
 };
 
 for (let key in rectangle) {
-  console.log(key); 
+  console.log(key);
   console.log(key, rectangle[key]);
 }
 ```
 
-**for of**    
-_only for iterables_   
+**for of**  
+_only for iterables_  
 _code_
 
 ```javascript
+for (let key of Object.entries(rectangle)) {
+  console.log(key);
+}
 
+// or
+for (let key of Object.keys(rectangle)) {
+  console.log(key);
+}
+```
 
+## Find property exist or not in Object ?
 
+```javascript
+if ("length" in rectangle) {
+  console.log("Present");
+} else {
+  console.log("Absent");
+}
+```
+
+# Object Cloning
+
+- Iteration
+- Assign
+- Spread
+
+  1.Iteration
+
+```javascript
+// Object Cloning
+// Create empty object
+// copy all the key and value in dest object
+
+let src = {
+  value: 10,
+};
+console.log(src);
+
+// Create empty obj
+let dest = {};
+
+// copy
+for (let key in src) {
+  dest[key] = src[key];
+}
+console.log(dest);
 ```
