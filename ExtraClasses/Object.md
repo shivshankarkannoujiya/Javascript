@@ -151,7 +151,7 @@ for (let key in rectangle) {
 ```
 
 **for of**    
-__only for iterables__   
+_only for iterables_   
 _code_
 
 ```javascript
