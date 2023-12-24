@@ -139,6 +139,9 @@ console.log(combinedArr);
 > Slice  
 > _slice(startIndex<Included> , endIndex<excluded>)_
 
+- startIndex : Included
+- endIndex : excluded
+
 ```javascript
 
 ```
