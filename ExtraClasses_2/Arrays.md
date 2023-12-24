@@ -197,3 +197,58 @@ let filteredNumber = numbers.filter((value) => {
 });
 console.log(filteredNumber);
 ```
+
+## Mapping Arrays
+
+_Map each Element of Array to something else_
+
+> Code
+
+```javascript
+let numbers = [1, 2, 3, 4];
+let student = numbers.map((value) => {
+  return "Student_no : " + value;
+});
+console.log(student);
+
+// Output
+/*
+[
+  'Student_no : 1',
+  'Student_no : 2',
+  'Student_no : 3',
+  'Student_no : 4'
+]
+*/
+```
+
+## Mapping with Object
+
+> Code
+
+```javascript
+let numbers = [1, 2, , -6, -9];
+let filtered = numbers.filter((value) => value >= 0);
+
+let items = filtered.map((num) => {
+  let obj = { value: num };
+  return obj;
+});
+
+console.log(items);
+```
+
+## Chaining
+
+> Code
+
+```javascript
+let numbers = [1, 2, , -6, -9];
+let item = numbers
+  .filter((value) => value >= 0)
+  .map((num) => {
+    return { value: num };
+  });
+
+console.log(item);
+```

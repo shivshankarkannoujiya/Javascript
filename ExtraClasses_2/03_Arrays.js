@@ -55,8 +55,38 @@
 // });
 
 // Filtering Arrays
-let numbers = [1, 2, -1, 3, -4];
-let filteredNumber = numbers.filter((value) => {
-  return value >= 0;
-});
-console.log(filteredNumber);
+// let numbers = [1, 2, -1, 3, -4];
+// let filteredNumber = numbers.filter((value) => {
+//   return value >= 0;
+// });
+// console.log(filteredNumber);
+
+// Mapping Arrays
+// Map each Element of Array to something else
+
+// let numbers = [1, 2, 3, 4];
+// let student = numbers.map((value) => {
+//   return "Student_no : " + value;
+// });
+// console.log(student);
+
+// Mapping with Object
+// let numbers = [1, 2, , -6, -9];
+// let filtered = numbers.filter((value) => value >= 0);
+
+// let items = filtered.map((num) => {
+//   let obj = { value: num };
+//   return obj;
+// });
+
+// console.log(items);
+
+// Chaining
+let numbers = [1, 2, , -6, -9];
+let item = numbers
+  .filter((value) => value >= 0)
+  .map((num) => {
+    return { value: num };
+  });
+
+console.log(item);
