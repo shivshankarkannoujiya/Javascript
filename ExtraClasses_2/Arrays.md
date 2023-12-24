@@ -160,5 +160,7 @@ let arr1 = [1, 2, 3];
 let arr2 = [4, 5, 6];
 
 let combinedArray = [...arr1, ...arr2];
+let combineArray = [...arr1, "a", ...arr2, "b"];
 console.log(combinedArray);
+console.log(combineArray);
 ```
