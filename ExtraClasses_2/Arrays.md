@@ -186,7 +186,7 @@ arr.forEach((numbers) => {
 });
 ```
 
-# Filtering Arrays
+## Filtering Arrays
 
 > Code
 
