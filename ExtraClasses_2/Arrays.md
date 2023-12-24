@@ -121,3 +121,24 @@ numbers.splice(0, numbers.length);
 console.log(numbers);
 console.log(numbersTwo);
 ```
+
+# Combining and Slicing Array
+
+_concat()_
+
+> Code
+
+```javascript
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+
+let combinedArr = arr1.concat(arr2);
+console.log(combinedArr);
+```
+
+> Slice  
+> _slice(startIndex<Included> , endIndex<excluded>)_
+
+```javascript
+
+```

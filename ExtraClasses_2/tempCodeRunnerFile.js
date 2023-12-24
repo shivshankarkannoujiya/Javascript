@@ -1,2 +1,2 @@
 
-console.log(numbers);
+let array = [1, 2,
