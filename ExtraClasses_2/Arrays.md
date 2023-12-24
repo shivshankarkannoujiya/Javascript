@@ -50,7 +50,7 @@ console.log(array.indexOf(element, start_index));
 
 ## Object/Refrence
 
-> Callback Function                            
+> Callback Function  
 > _find_
 
 ```javascript
@@ -73,3 +73,9 @@ console.log(course);
 // or : Using Arraow function
 let course = courses.find((crs) => crs.Name === "python");
 ```
+
+# Removing Elements
+
+- End : pop ()
+- Beginning : shift()
+- Middle : splice(index,no_of_element_wants to delete)      

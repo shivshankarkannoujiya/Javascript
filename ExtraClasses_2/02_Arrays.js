@@ -24,5 +24,13 @@ let courses = [
 // });
 // console.log(course);
 
-// or
-let course = courses.find((crs) => crs.Name === "python");
+// or : Arrow Function
+// let course = courses.find((crs) => crs.Name === "python");
+
+
+// Removing Element
+// end , Beginning, Middle 
+
+// End : pop ()
+// Beginning : shift()
+// Middle : splice(index,no_of_element_wants to delete)
