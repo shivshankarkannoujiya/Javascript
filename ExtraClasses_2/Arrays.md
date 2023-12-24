@@ -116,7 +116,7 @@ numbers.length = 0;
 console.log(numbers);
 console.log(numbersTwo);
 
-// 3
+// 3 *****
 numbers.splice(0, numbers.length);
 console.log(numbers);
 console.log(numbersTwo);
