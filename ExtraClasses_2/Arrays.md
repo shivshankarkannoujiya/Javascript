@@ -78,4 +78,4 @@ let course = courses.find((crs) => crs.Name === "python");
 
 - End : pop ()
 - Beginning : shift()
-- Middle : splice(index,no_of_element_wants to delete)      
+- Middle : splice(index , no_of_element_wants to delete)              
