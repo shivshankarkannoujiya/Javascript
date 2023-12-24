@@ -32,10 +32,31 @@
 // console.log(slicedArray);
 // console.log(sliceArray);
 
-let arr1 = [1, 2, 3];
-let arr2 = [4, 5, 6];
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
 
 // let combinedArray = [...arr1, ...arr2];
-let combinedArray = [...arr1, "a", ...arr2, "b"];
+// let combinedArray = [...arr1, "a", ...arr2, "b"];
+// console.log(combinedArray);
 
-console.log(combinedArray);
+// Creating copy
+// let copyArray = [...combinedArray];
+
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// forof
+// for (let value of arr) {
+//   console.log(value);
+// }
+
+// foreach
+// arr.forEach((numbers) => {
+//   console.log(numbers);
+// });
+
+// Filtering Arrays
+let numbers = [1, 2, -1, 3, -4];
+let filteredNumber = numbers.filter((value) => {
+  return value >= 0;
+});
+console.log(filteredNumber);

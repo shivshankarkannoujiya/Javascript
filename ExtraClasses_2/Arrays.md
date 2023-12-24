@@ -163,4 +163,37 @@ let combinedArray = [...arr1, ...arr2];
 let combineArray = [...arr1, "a", ...arr2, "b"];
 console.log(combinedArray);
 console.log(combineArray);
+
+// Creating copy
+let copyArray = [...combinedArray];
+```
+
+# Traversing
+
+> code
+
+```javascript
+let arr = [1, 2, 3, 4, 5, 6];
+
+// forof-loop
+for (let value of arr) {
+  console.log(value);
+}
+
+// foreach-loop
+arr.forEach((numbers) => {
+  console.log(numbers);
+});
+```
+
+# Filtering Arrays
+
+> Code
+
+```javascript
+let numbers = [1, 2, -1, 3, -4];
+let filteredNumber = numbers.filter((value) => {
+  return value >= 0;
+});
+console.log(filteredNumber);
 ```
