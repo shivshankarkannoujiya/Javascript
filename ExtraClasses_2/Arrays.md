@@ -97,3 +97,27 @@ console.log(numbers);
 numbers.splice(4, 1);
 console.log(numbers);
 ```
+
+# Emptying an Array
+
+> Code
+
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+let numbersTwo = numbers;
+
+// 1
+numbers = [];
+console.log(numbers);
+console.log(numbersTwo);
+
+// 2 *****
+numbers.length = 0;
+console.log(numbers);
+console.log(numbersTwo);
+
+// 3
+numbers.splice(0, numbers.length);
+console.log(numbers);
+console.log(numbersTwo);
+```
