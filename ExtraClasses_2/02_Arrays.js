@@ -34,3 +34,17 @@ let courses = [
 // End : pop ()
 // Beginning : shift()
 // Middle : splice(index,no_of_element_wants to delete)
+
+let numbers = [1,2,3,4,5,6,7]
+
+// End
+// number.pop()
+// console.log(numbers);
+
+// Beginning
+// number.shift()
+// console.log(numbers);
+
+// Middle
+numbers.splice(4,1)
+console.log(numbers);
