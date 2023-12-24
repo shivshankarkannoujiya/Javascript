@@ -50,7 +50,7 @@ console.log(array.indexOf(element, start_index));
 
 ## Object/Refrence
 
-> Callback Function
+> Callback Function                            
 > _find_
 
 ```javascript
