@@ -38,3 +38,38 @@ console.log(array);
 array.splice(2, 0, "a", "b", "c");
 console.log(array);
 ```
+
+# Searching
+
+_includes_
+
+```javascript
+console.log(array.includes(element));
+console.log(array.indexOf(element, start_index));
+```
+
+## Object/Refrence
+
+> Callback Function
+> _find_
+
+```javascript
+let courses = [
+  {
+    No: 1,
+    Name: "python",
+  },
+  {
+    No: 2,
+    Name: "cpp",
+  },
+];
+
+let course = courses.find(function (crs) {
+  return crs.Name === "python";
+});
+console.log(course);
+
+// or : Using Arraow function
+let course = courses.find((crs) => crs.Name === "python");
+```
