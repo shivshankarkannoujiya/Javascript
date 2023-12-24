@@ -26,8 +26,14 @@
 // let combinedArr = arr1.concat(arr2)
 // console.log(combinedArr);
 
-let array = [1, 2, 3, 4, 5, 6];
-let slicedArray = array.slice(2, 3);
-let sliceArray = array.slice(2);
-console.log(slicedArray);
-console.log(sliceArray);
+// let array = [1, 2, 3, 4, 5, 6];
+// let slicedArray = array.slice(2, 3);
+// let sliceArray = array.slice(2);
+// console.log(slicedArray);
+// console.log(sliceArray);
+
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+
+let combinedArray = [...arr1, ...arr2];
+console.log(combinedArray);
