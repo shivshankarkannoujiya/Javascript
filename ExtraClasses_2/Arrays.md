@@ -143,5 +143,10 @@ console.log(combinedArr);
 - endIndex : excluded
 
 ```javascript
-
+let array = [1, 2, 3, 4, 5, 6];
+let slicedArray = array.slice(2, 3);
+let sliceArray = array.slice(2);
+let sliceArray = array.slice();
+console.log(slicedArray);
+console.log(sliceArray);
 ```
