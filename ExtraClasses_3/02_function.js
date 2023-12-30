@@ -29,3 +29,5 @@ let person = {
 
 // accessing
 console.log(person.fullName);
+console.log(person.fName);
+console.log(person.lName);
